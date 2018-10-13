@@ -1,0 +1,26 @@
+.jumbotron {
+	background-image: url(http://www.welgrowgroup.com/img.php?file=welgrowgroupuploads/country/images/cnt_144266574410_na-1.jpg);
+	height: 500px;
+}
+
+#images {
+	width: 100%;
+	height: 300px;
+}
+
+.card {
+	height: 630px;
+}
+
+
+@media only screen and (max-width: 774px){
+	#images {
+		display: none !important;
+		border: 2px solid green
+	}
+
+	.card {
+		height: 100%;
+	}
+
+}
